@@ -10,6 +10,4 @@ branches:
   only:
     - master
 notifications:
-  email: false
-    template:
-      - "[%{repository}] [%{commit}] [%{author}] %{message} - %{build_url}"
+  email: true
